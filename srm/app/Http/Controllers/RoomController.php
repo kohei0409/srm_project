@@ -15,7 +15,8 @@ class RoomController extends Controller
      */
     public function index()
     {
-        //
+        return view('room.room');
+
     }
 
     /**
@@ -31,7 +32,7 @@ class RoomController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \App\Http\Requests\StoreRoomRequest  $request
+     * @param \App\Http\Requests\StoreRoomRequest $request
      * @return \Illuminate\Http\Response
      */
     public function store(StoreRoomRequest $request)
@@ -42,7 +43,7 @@ class RoomController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Room  $room
+     * @param \App\Models\Room $room
      * @return \Illuminate\Http\Response
      */
     public function show(Room $room)
@@ -53,7 +54,7 @@ class RoomController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Room  $room
+     * @param \App\Models\Room $room
      * @return \Illuminate\Http\Response
      */
     public function edit(Room $room)
@@ -64,8 +65,8 @@ class RoomController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\UpdateRoomRequest  $request
-     * @param  \App\Models\Room  $room
+     * @param \App\Http\Requests\UpdateRoomRequest $request
+     * @param \App\Models\Room $room
      * @return \Illuminate\Http\Response
      */
     public function update(UpdateRoomRequest $request, Room $room)
@@ -76,7 +77,7 @@ class RoomController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Room  $room
+     * @param \App\Models\Room $room
      * @return \Illuminate\Http\Response
      */
     public function destroy(Room $room)

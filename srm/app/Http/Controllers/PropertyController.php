@@ -15,7 +15,8 @@ class PropertyController extends Controller
      */
     public function index()
     {
-        //
+        return view('property.property');
+
     }
 
     /**
@@ -31,7 +32,7 @@ class PropertyController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \App\Http\Requests\StorePropertyRequest  $request
+     * @param \App\Http\Requests\StorePropertyRequest $request
      * @return \Illuminate\Http\Response
      */
     public function store(StorePropertyRequest $request)
@@ -42,7 +43,7 @@ class PropertyController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Property  $property
+     * @param \App\Models\Property $property
      * @return \Illuminate\Http\Response
      */
     public function show(Property $property)
@@ -53,7 +54,7 @@ class PropertyController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Property  $property
+     * @param \App\Models\Property $property
      * @return \Illuminate\Http\Response
      */
     public function edit(Property $property)
@@ -64,8 +65,8 @@ class PropertyController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\UpdatePropertyRequest  $request
-     * @param  \App\Models\Property  $property
+     * @param \App\Http\Requests\UpdatePropertyRequest $request
+     * @param \App\Models\Property $property
      * @return \Illuminate\Http\Response
      */
     public function update(UpdatePropertyRequest $request, Property $property)
@@ -76,7 +77,7 @@ class PropertyController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Property  $property
+     * @param \App\Models\Property $property
      * @return \Illuminate\Http\Response
      */
     public function destroy(Property $property)

@@ -15,7 +15,7 @@ class PropertyController extends Controller
      */
     public function index()
     {
-        return view('property.property');
+        return view('property.index');
 
     }
 

@@ -22,4 +22,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/institution', [App\Http\Controllers\InstitutionController::class, 'index'])->name('institution');
 Route::get('/property', [App\Http\Controllers\PropertyController::class, 'index'])->name('property');
 Route::get('/room', [App\Http\Controllers\RoomController::class, 'index'])->name('room');
-Route::get('/user', [App\Http\Controllers\UserController::class, 'index'])->name('user');
+Route::get('/user', [App\Http\Controllers\User::class, 'index'])->name('user');

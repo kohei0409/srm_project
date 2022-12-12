@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="244" height="70.5">
+    <defs>
+        <style>
+            .cls-3{fill:#dff4dc}.cls-4{fill:#4e3b30;font-family:YuGo-Bold,YuGothic;font-weight:700;letter-spacing:.06em;font-size:8px}
+        </style>
+    </defs>
+    <g id="calc3" transform="translate(-556.5 -301)">
+        <path id="長方形_66" data-name="長方形 66" transform="translate(618 314)" style="fill:#f9fff8" d="M0 0h182v16H0z"/>
+        <path id="長方形_16" data-name="長方形 16" transform="translate(557 314)" style="fill:none;stroke:#dff4dc" d="M0 0h243v57H0z"/>
+        <path id="長方形_61" data-name="長方形 61" class="cls-3" transform="translate(557 330)" d="M0 0h243v1H0z"/>
+        <path id="長方形_63" data-name="長方形 63" class="cls-3" transform="translate(617 314)" d="M0 0h1v57H0z"/>
+        <path id="長方形_64" data-name="長方形 64" class="cls-3" transform="translate(678 314)" d="M0 0h1v57H0z"/>
+        <path id="長方形_65" data-name="長方形 65" class="cls-3" transform="translate(739 314)" d="M0 0h1v57H0z"/>
+        <path id="長方形_62" data-name="長方形 62" class="cls-3" transform="translate(557 350)" d="M0 0h243v1H0z"/>
+        <text id="お一人入居" class="cls-4" transform="translate(587 343)"><tspan x="-20.96" y="0">お一人入居</tspan></text>
+        <text id="_118_800円" data-name="118,800円" class="cls-4" transform="translate(648 343)"><tspan x="-20.548" y="0">118,800円</tspan></text>
+        <text id="_69_000円" data-name="69,000円" class="cls-4" transform="translate(709 343)"><tspan x="-18.016" y="0">69,000円</tspan></text>
+        <text id="_187_800円" data-name="187,800円" class="cls-4" transform="translate(770 343)"><tspan x="-20.548" y="0">187,800円</tspan></text>
+        <text id="_237_600円" data-name="237,600円" class="cls-4" transform="translate(648 364)"><tspan x="-20.548" y="0">237,600円</tspan></text>
+        <text id="_138_000円" data-name="138,000円" class="cls-4" transform="translate(709 364)"><tspan x="-20.548" y="0">138,000円</tspan></text>
+        <text id="_375_600円" data-name="375,600円" class="cls-4" transform="translate(770 364)"><tspan x="-20.548" y="0">375,600円</tspan></text>
+        <text id="管理費" class="cls-4" transform="translate(648 326)"><tspan x="-12.48" y="0">管理費</tspan></text>
+        <text id="食費" class="cls-4" transform="translate(709 326)"><tspan x="-8.24" y="0">食費</tspan></text>
+        <text id="合計" class="cls-4" transform="translate(770 326)"><tspan x="-8.24" y="0">合計</tspan></text>
+        <text id="お二人入居" class="cls-4" transform="translate(587 364)"><tspan x="-20.96" y="0">お二人入居</tspan></text>
+        <text id="ご入居後の月々の費用_税込_" data-name="ご入居後の月々の費用（税込）" transform="translate(557 309)" style="font-size:9px;fill:#4e3b30;font-family:YuGo-Bold,YuGothic;font-weight:700;letter-spacing:.06em"><tspan x="0" y="0">ご入居後の月々の費用（税込）</tspan></text>
+    </g>
+</svg>

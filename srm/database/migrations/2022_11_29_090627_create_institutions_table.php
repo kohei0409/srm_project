@@ -18,6 +18,8 @@ class CreateInstitutionsTable extends Migration
             $table->string('image1')->nullable();
             $table->string('image2')->nullable();
             $table->string('image3')->nullable();
+            $table->string('image4')->nullable();
+            $table->string('image5')->nullable();
             $table->text('image1comment')->nullable();
             $table->text('image2comment')->nullable();
             $table->text('image3comment')->nullable();

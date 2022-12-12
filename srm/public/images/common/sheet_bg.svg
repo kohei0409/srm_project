@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="123" height="115" viewBox="0 0 123 115">
+    <defs>
+        <style>
+            .cls-1{fill:#c3936a}.cls-2{fill:#fff}.cls-7{letter-spacing:-.01em}
+        </style>
+    </defs>
+    <g id="グループ_62" transform="translate(-413 -378)">
+        <path id="長方形_53" d="M0 0H70V70H0z" class="cls-1" transform="translate(413 378)"/>
+        <path id="長方形_59" d="M0 0H62V62H0z" class="cls-2" transform="translate(417 382)"/>
+        <path id="長方形_35" fill="none" d="M0 0H123V21H0z" transform="translate(413 465)"/>
+        <g id="グループ_48">
+            <g id="グループ_46">
+                <rect id="長方形_56" width="32" height="44" class="cls-1" rx="2" transform="translate(497 378)"/>
+                <rect id="長方形_57" width="26" height="33" class="cls-2" rx="1.599" transform="translate(500 383)"/>
+                <rect id="長方形_58" width="6" height="1" class="cls-2" rx=".5" transform="translate(510 380)"/>
+                <circle id="楕円形_1" cx="2" cy="2" r="2" class="cls-2" transform="translate(511 417)"/>
+            </g>
+            <g id="グループ_47">
+                <path id="パス_41" d="M517.371 393.556v-.519a1.032 1.032 0 0 0-1.028-1.037h-6.686a1.032 1.032 0 0 0-1.028 1.037v.519a1.034 1.034 0 0 1-1.029 1.037h-2.572a1.032 1.032 0 0 0-1.028 1.036v9.334a1.032 1.032 0 0 0 1.028 1.037h15.944a1.032 1.032 0 0 0 1.028-1.037v-9.334a1.032 1.032 0 0 0-1.028-1.036H518.4a1.034 1.034 0 0 1-1.029-1.037z" class="cls-1"/>
+                <circle id="楕円形_2" cx="4" cy="4" r="4" class="cls-2" transform="translate(509 396)"/>
+            </g>
+        </g>
+        <text id="_360_" fill="#4e3b30" font-family="CenturyGothicPro-Bold, Century Gothic Pro" font-size="12px" font-weight="700" letter-spacing="0.06em" transform="translate(513.775 434.313)">
+            <tspan x="-13.56" y="0">360°</tspan>
+        </text>
+        <text id="居室内覧" fill="#4e3b30" font-family="YuGo-Bold, YuGothic" font-size="11px" font-weight="700" letter-spacing="0.06em" transform="translate(512.557 446.68)">
+            <tspan x="-22.99" y="0">居室内覧</tspan>
+        </text>
+        <text id="お手持ちのスマートフォンのQRコード読み取り機能をご利用の上居室の全景をご覧ください_" fill="#302d2c" font-family="YuGo-Medium, YuGothic" font-size="8px" font-weight="500" letter-spacing="0.03em" transform="translate(413 454)">
+            <tspan x="0" y="7">お手持ちのスマートフォンのQR</tspan><tspan x="0" y="18" class="cls-7">コード読み取り機能をご利用の上</tspan><tspan x="0" y="29" class="cls-7">居室の全景をご覧ください。</tspan>
+        </text>
+    </g>
+</svg>

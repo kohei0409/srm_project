@@ -1,0 +1,606 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 2018/12/03, 7:38:56
+    Author     : th
+*/
+
+
+
+@page {
+    size: A4 landscape;
+    margin: 5mm;
+}
+
+/* A4ヨコ */
+
+@media print {
+    .noprint {
+        display: none;
+    }
+
+    #roomsheetheader{
+        display: none;
+    }
+}
+
+
+nav.navbar{
+    display: none;
+}
+
+.side-menu{
+    display: none;
+}
+
+h1.page-title{
+    display: none;
+}
+
+.app-container .content-container .side-body.padding-top{
+    padding-top:0;
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.app-container .side-body{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+#sheet1 #footer{
+    background-color:#0D9C4D !important;
+}
+
+
+#sheet1 #mainleftcontent{
+    padding: 1.2vw 0.6vw;
+}
+
+#sheet1 #mainleft{
+    float:left;
+    width:66%;
+}
+
+#sheet1 #mainright{
+    float:left;
+    width:34%;
+}
+
+#sheet1 .mainleftcol{
+    width: 50%;
+    float: left;
+    padding: 0 0.6vw;
+    box-sizing: border-box;
+}
+
+.imagelist{
+    float:left;
+    width:50%;
+}
+
+#commentboxleft{
+    float:left;
+    width: 70%;
+}
+
+#commentboxright{
+    float:left;
+    width: 30%;
+}
+
+#mainleftheader{
+    padding: 1vw 0 1vw 2vw;
+}
+
+#mainleftheadertext1{
+    display: inline-block;
+    color: white;
+    font-size: 2.1vw;
+    letter-spacing: 0.4vw;
+}
+
+#mainleftheadertext2{
+    display: inline-block;
+    padding: 0 0 0 1vw;
+    color: white;
+    font-size: 1.2vw;
+    letter-spacing: 0.1vw;
+}
+
+#mainright{
+    height: 60vw;
+    background-color:#f9f1e9 !important;
+}
+#mainleft{
+
+    height: 60vw;
+}
+
+#sheet1{
+    border:2px solid #CCA57E;
+}
+
+.imagecomment{
+    font-size: 1vw;
+    line-height: 1.2vw;
+    font-weight: bold;
+    margin: 0.4vw 0 0 0;
+    height: 3.2vw;
+    color: #7d6f63;
+    word-break: break-all;
+}
+
+#commentbox{
+    background-color:#f9f1e9 !important;
+    padding:1.2vw;
+}
+
+#commentboxrighttext1{
+    font-size: 0.9vw;
+    text-align: center;
+    margin: 0.4vw 0 0 0;
+    letter-spacing: 0.1vw;
+    color:#956134;
+}
+
+#commentboxrighttext2{
+    font-size: 1.2vw;
+    text-align: center;
+    color:#956134;
+}
+
+#commentboxlefttext{
+    font-size: 1.1vw;
+    padding: 0.4vw 1.6vw 0 0;
+    word-break: break-all;
+    color: #956134;
+    font-weight: bold;
+}
+
+#commentboxlefttitle{
+    font-size: 1.6vw;
+    letter-spacing: 0.2vw;
+    color: #956134;
+}
+
+#righttable{
+    margin: 1vw 1vw 1vw 1vw;
+}
+
+.type{
+    text-align: center;
+    font-size: 1.8vw;
+    letter-spacing: 0.6vw;
+    background-color: #956134 !important;
+    color: white;
+    padding: 0.6vw 0 0.4vw 0.6vw;
+}
+
+#rightfootertext{
+    font-size: 0.6vw;
+    margin: 1vw 0 0 0;
+}
+
+
+#infotable{
+    font-size: 1.1vw;
+    background-color: #FAF7F3 !important;
+    border:1px solid #CCA57E;
+    border-collapse: collapse;
+}
+
+#infotable th{
+    text-align: left;
+    background-color: #956134 !important;
+    color: white;
+    padding: 0.3vw 0 0.3vw 0.8vw;
+    font-size: 1.1vw;
+    letter-spacing: 0.2vw;
+    border:1px solid #CCA57E;
+    border-collapse: collapse;
+}
+
+#infotable td{
+    padding: 0.5vw 0.5vw 0.5vw 0.8vw;
+    color:#956134;
+    border:1px solid #CCA57E;
+    border-collapse: collapse;
+}
+
+#infotable td span{
+    color:#956134;
+}
+
+#tabletext1{
+    font-size: 0.9vw;
+    color:#956134;
+}
+
+
+
+.pricetext1{
+    font-size: 2.2vw;
+    color: #E83828!important;
+    letter-spacing: 0.3vw;
+    font-weight: bold;
+}
+
+.pricetext2{
+    font-size: 1.3vw;
+    color: #E83828!important;
+    font-weight: bold;
+    letter-spacing: 0.1vw;
+}
+
+.pricetext3{
+    font-size: 0.9vw;
+    color: #E83828!important;
+    font-weight: bold;
+    letter-spacing: 0.1vw;
+    margin: 0 0.6vw 0 0;
+    position: relative;
+    top: 0.2vw;
+    display: inline-block;
+}
+
+#pricedatacol{
+    font-size:1.8vw!important;
+    background-color: #E83828!important;
+    letter-spacing: 1vw!important;
+    width:33%;
+}
+#pricedatacol2{
+    width:67%;
+}
+
+.imagelist{
+    box-sizing: border-box;
+    padding:0 0.4vw;
+}
+
+#imagebox1{
+    margin:0 -0.4vw
+}
+
+#roomheader>ul>li{
+    float:left;
+    list-style: none;
+    margin: 10px 20px 10px 8px;
+}
+
+.headerbutton{
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    background: #698cce;
+    cursor: pointer;
+    display: block;
+    font-size:16px;
+    letter-spacing: 1px;
+}
+
+.headerbutton:hover{
+    background: #9ab7ef;
+    color:white;
+}
+
+#sheet1{
+    margin:1vw;
+}
+
+#rightfootertexttext1,#rightfootertexttext4{
+    font-size: 1vw;
+    color: #9f6c3b;
+    font-weight: bold;
+}
+#rightfootertexttext4{
+    padding: 1vw 0 0 0;
+}
+
+#rightfootertexttext2,#rightfootertexttext3{
+    font-size: 1vw;
+    color: #9f6c3b;
+    font-weight: bold;
+}
+
+#rightfootertexttext3{
+    margin: 0.4vw 0 0 0;
+}
+
+#rightfootertextbox1{
+    background: #fd3636;
+}
+
+#rightfootertextbox2{
+    background: #ff8282;
+    color: white;
+
+}
+
+#rightfootertextbox3{
+    background: #f39742;
+}
+
+#rightfootertextbox1,#rightfootertextbox2,#rightfootertextbox3{
+    display: inline-block;
+    padding: 0.3vw 0.2vw;
+    font-size: 0.6vw;
+    letter-spacing: 0.1vw;
+    color: white;
+    font-weight: bold;
+}
+
+#rightfootertextbox4 table td{
+    padding: 0.3vw 0 0.3vw 0;
+    color: #956134;
+    border: 1px solid #CCA57E;
+    border-collapse: collapse;
+    width:25%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#rightfootertextbox4 table {
+    font-size: 1vw;
+    background-color: #FAF7F3 !important;
+    border: 1px solid #CCA57E;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0.4vw 0 0 0;
+}
+
+#rightfootertextbox4 table th{
+    text-align: left;
+    width: 8vw;
+    background-color: #956134 !important;
+    color: white;
+    padding: 0.4vw 0 0.4vw 0;
+    font-size: 1.1vw;
+    letter-spacing: 0.2vw;
+    border: 1px solid #CCA57E;
+    border-collapse: collapse;
+    width:25%;
+    text-align: center;
+}
+
+#rightfootertextbox5{
+    color: #9f6c3b;
+    font-size: 0.5vw;
+    padding: 0.4vw 0 0 0;
+}
+
+.headerkanagawa{
+    background-color:#00743a !important;
+}
+.headermachida{
+    background-color:#c03d4b !important;
+}
+.headeryokohamaminami{
+    background-color:#2694b9 !important;
+}
+.headeryokohama{
+    background-color:#b2602b !important;
+}
+.headerminatomirai{
+    background-color:#103159 !important;
+}
+
+#roomsheetheader>ul>li{
+    float:left;
+    margin: 0 10px 0 0;
+}
+
+#roomsheetheader>ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+#roomsheetheader{
+    background-color:black !important;
+    padding: 8px 10px;
+}
+
+#roomsheetheader>ul>li a{
+    padding: 2px 10px;
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid white;
+    background: white;
+    border-radius: 0px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#roomsheetheader>ul>li a:hover{
+    color:#bdbdbd;
+}
+
+#roomversionselect{
+    height: 30px;
+    font-size: 17px;
+    width: 90px;
+}
+
+
+#pricemodeselect{
+    height: 30px;
+    font-size: 17px;
+    width: 190px;
+}
+
+.modetype1{
+    display:none;
+}
+.modetype2{
+    display:none;
+}
+
+
+.image_check1{
+    display:none;
+}
+.image_check2{
+    display:none;
+}
+
+#sheetstatus1message2box{
+    color: red;
+    background: #ffffffde;
+    font-weight: bold;
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 34px;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    width: 576px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border: 6px solid red;
+    box-shadow: 8px 8px 6px #383838;
+}
+
+#sheetstatus1message2boxbutton{
+    border-radius: 17px;
+    color: white;
+    background: #0065d6;
+    color: white;
+    display: block;
+    width: 140px;
+    padding: 6px 0;
+    font-size: 27px;
+    margin: 30px auto 0;
+    box-shadow: 3px 3px 0px #7b7b7b;
+}
+
+#sheetstatus1message2boxbutton:hover{
+    background: #429bff;
+}
+
+body{
+-webkit-print-color-adjust: exact;
+
+}
+
+
+/*コンテンツ*/
+
+.top_border {
+    background: linear-gradient(70deg, #008428, #58CD9A);
+    height: 5px;
+    margin-bottom: 5px;
+}
+
+.header_0001 {
+    border: solid 2px white;
+    color: white;
+    font-size: 22px;
+    padding: 5px 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: 100px;
+    float: left;
+}
+
+.header_0002 {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: 50px;
+    float: left;
+}
+
+.header_0003 {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: 30px;
+    float: left;
+
+}
+
+.price_0001 {
+    font-family: '游ゴシック体', YuGothic, '游ゴシック Medium', 'Yu Gothic Medium', '游ゴシック', 'Yu Gothic', sans-serif;;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.56px;
+    text-align: left;
+    color: #dc000c;
+    margin-right: 20px;
+}
+
+
+.price_0002 {
+    font-family: '游ゴシック体', YuGothic, '游ゴシック Medium', 'Yu Gothic Medium', '游ゴシック', 'Yu Gothic', sans-serif;;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.88px;
+    text-align: right;
+    color: #dc000c;
+
+}
+
+.price_0003 {
+    font-family: '游ゴシック体', YuGothic, '游ゴシック Medium', 'Yu Gothic Medium', '游ゴシック', 'Yu Gothic', sans-serif;;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #dc000c;
+
+}
+
+.price_0004 {
+    font-family: '游ゴシック体', YuGothic, '游ゴシック Medium', 'Yu Gothic Medium', '游ゴシック', 'Yu Gothic', sans-serif;;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #4E3B30;
+
+}
+
+.price_0005 {
+    font-family: '游ゴシック体', YuGothic, '游ゴシック Medium', 'Yu Gothic Medium', '游ゴシック', 'Yu Gothic', sans-serif;;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #4E3B30;
+
+}
+
+
+
+
+.row-border {
+    border-bottom: solid 2px #DFF4DC;
+
+
+}

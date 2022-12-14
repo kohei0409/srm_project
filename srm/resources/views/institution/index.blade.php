@@ -79,7 +79,7 @@
     ?>
 
 
-    <div class="container-fluid" style="padding-top: 100px;z-index: 99">
+    <div class="container-fluid" style="z-index: 99">
 
 
         <div class="row mb-5">

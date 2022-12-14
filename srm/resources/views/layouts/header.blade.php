@@ -7,7 +7,7 @@
 
     <!-- Theme CSS -->
     <link rel="stylesheet" href="{{ asset('/css/theme.bundle.css')  }}" id="stylesheetLTR">
-    <link rel="stylesheet" href="{{ asset('/css/print.css')  }}" id="stylesheetLTR">
+    <link rel="stylesheet" href="{{ asset('/css/print.css')  }}" id="stylesheetPRINT">
 
     <link rel="preload" as="style"
           href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&amp;display=swap">
@@ -165,8 +165,8 @@
 <main>
 
     <!-- HEADER -->
-    <div class="print_none">
-        <header class="container-fluid d-flex py-0 mb-4" style="position: fixed;z-index: 10;">
+    <div class="print_none " style="padding-bottom: 100px;">
+        <header class="container-fluid d-flex py-0 mb-4" style="position: fixed;z-index: 10;background-color: white;">
 
             <!-- Search -->
             <div class="input-group input-group-merge pt-6">
@@ -317,10 +317,19 @@
                         <!-- Dropdown -->
 
 
-                        <a class="dropdown-item" href="/system/
-                    ">Sign out</a>
+
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                        @csrf
+                                    </form>
                     </div>
                 </div>
             </div>
         </header>
     </div>
+</main>

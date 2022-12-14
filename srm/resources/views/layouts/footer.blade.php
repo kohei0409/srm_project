@@ -5,11 +5,11 @@
         <div class="container-fluid mt-4 mb-6 text-muted">
             <div class="row justify-content-between">
                 <div class="col">
-                    Supported by © Adtrust.co.,ltd
+                    Supported by © Adtrust.co.,ltd | <a href="{{route('home')}}">空室管理</a> | <a href="{{route('users')}}">ユーザ管理</a> |
                 </div>
 
                 <div class="col-auto">
-                    v1.2.0
+                    v1.2.1
                 </div>
             </div> <!-- / .row -->
         </div>

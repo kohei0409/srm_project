@@ -46,11 +46,11 @@
                                 <tbody>
                                 <tr>
                                     <td>
-
+                                        <img src="" alt="">
                                     </td>
 
                                     <td>
-
+施設名：
                                     </td>
 
                                     <td>
